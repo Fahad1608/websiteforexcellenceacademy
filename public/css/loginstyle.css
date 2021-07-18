@@ -1,0 +1,81 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+::placeholder {
+	color: #bfbfbf;
+	font-size: 18px;
+}
+input:focus {
+	outline: none;
+	border-bottom-width: 1.5px;
+	border-bottom-color: white;
+}
+.bg {
+    background-image: url("https://hdqwalls.com/download/hex-abstract-material-design-ad-3840x2160.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.main {
+	width: 400px;
+	height: 500px;
+	background: black;
+	opacity: 0.2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -250px 0px 0px -200px;
+}
+.welcome {
+	width: 200px;
+	height: 50px;
+	font-family: Trebuchet MS;
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: 43%;
+	top: 20%;
+}
+.credentials {
+	color: white;
+	position: absolute;
+	left: 42%;
+	top: 40%;
+	font-size: 20px;
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom-width: 1px;
+	border-bottom-color: #bfbfbf;
+}
+#psswrd {
+	top: 49%;
+}
+.loginbutton {
+	position: absolute;
+	left: 48%;
+	top: 60%;
+	font-size: 16px;
+	color: white;
+	background-color: #42648a;
+	padding: 6px 12px 6px 12px;
+    border: 0;
+	border-radius: 4px;
+}
+button:hover {
+	background-color: #3a5778;
+	cursor: pointer;
+}
+button:active {
+	background-color: #324b67;
+}
+button:focus {
+	outline: none;
+}
+b:hover {
+    text-decoration: underline;
+	text-decoration-color:color#648ab4;
+	cursor:pointer
+}
