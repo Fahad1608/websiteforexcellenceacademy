@@ -1,0 +1,29 @@
+{
+  "name": "designlabproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "Fahad Malik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "bootstrap4": "0.0.1-security",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "history": "^5.0.0",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7",
+    "twilio": "^3.65.0",
+    "url": "^0.11.0",
+    "validator": "^13.6.0",
+    "wbm": "^1.1.15",
+    "window": "^4.2.7",
+    "windows": "0.0.9"
+  }
+}
