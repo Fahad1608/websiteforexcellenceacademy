@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {{!-- <script type="text/javascript">
+        function preventBack() {
+            window.history.forward(); 
+        }
+          
+        setTimeout("preventBack()", 0);
+          
+        window.onunload = function () { null };
+    </script>
+    <script language="JavaScript">
+javascript:window.history.backward(1);
+</script> --}}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Official Website</title>
+</head>
+<body>
+
+    {{>navbar}}
+    {{!--hero section start --}}
+    <div class="container-fluid mt-5">
+        <div class="row">
+           <div class="col-md-10 col-12 mx-auto">
+               <div class="row">
+               <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                     <h1>WE WILL HELP YOU TO</h1>
+                     <h1>INCREASE YOUR WISDOM</h1>
+                     <P>WE Are The Team Of<span class="bold-style"> Proffesional Teacher ✌ </span>here to help you out in each and every subject and give you a better understanding of complex topic here we treat children individually and that's why our student top every exams</P>
+                    <form action="/index" method="post"> <button class="btn-style btn-primary" href="/intro">Read more</button> </form>
+               </div>
+               {{!-- right side --}}
+                <div class="col-md-6 col-12 hero-text">
+                 <figure>
+                     <img src="images/tution.jpg" alt="herosection_image">
+                 </figure>
+               </div>
+               </div>>
+            
+
+           </div> 
+        </div> 
+        
+        </div>
+        
+        {{!--hero section ends --}}
+         
+         {{!-- about us start --}}
+         {{>about}}
+        {{!--about us ends --}}
+         {{!--our services start --}}
+        {{>service}}
+        {{!--our services  ends --}}
+        {{!--map start --}}
+        {{>map}}
+        {{!--map  ends
+
+        {{!--contactus start --}}
+        {{>contactus}} --}}
+        {{!--contactus  ends --}}
+     
+    
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    
+</body>
+</html>
